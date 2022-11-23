@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>User logged Out</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Site logo (Home page link)</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Home&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Sign in&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Sign up&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Body</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&apos;Home&apos; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&apos;Global Feed&apos; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article content</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;read more&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like]</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Tags&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Popular Tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Pagination</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign In&quot; page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C5</id>
+				<title>User should be able to log in with password matching email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C46</id>
+				<title>The user should be able to click on the “Sign in” link and open the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C47</id>
+				<title>&quot;Sign In&quot; page should contain &quot;email&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C48</id>
+				<title>&quot;Sign In&quot; page should contain &quot;password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C49</id>
+				<title>&quot;Sign In&quot; page should contain [Sign in] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C50</id>
+				<title>&quot;Sign In&quot; page should contain  “Need an account” link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C52</id>
+				<title>&quot;Sign In&quot; page should contain “Forgot the password?” link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-15</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C53</id>
+				<title>“Forgot the password?” link on the &quot;Sign In&quot; page should redirect to the “Forgot password” page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C63</id>
+				<title>Users should be able to log in by pressing an Enter button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C64</id>
+				<title>Validation messages for the empty fields on the &quot;Sign In&quot; page should be shown under the corresponding field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-14</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Need an account?&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C51</id>
+				<title>The “Need an account” link on the 	&quot;Sign In&quot; page should redirect to the “Sign up” page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C54</id>
+				<title>&quot;Email&quot; field should be required on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C55</id>
+				<title>&quot;Email&quot; field should accept email as valid credentials to log in on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C56</id>
+				<title>The &quot;Email&quot; field should contain a placeholder text: &quot;Enter your email&quot; on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-13</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C57</id>
+				<title>&quot;Email&quot; field is not case sensitive on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C65</id>
+				<title>If the &quot;Email&quot; field is empty validation message: “Email: can’t be blank”  is shown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&apos;Password&apos; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C58</id>
+				<title>&quot;Password&quot; field should be required on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C59</id>
+				<title>&quot;Password&quot; field should be covered by asterisks on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C60</id>
+				<title>Users shouldn&apos;t be able to copy values from the &quot;Password&quot; field on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C61</id>
+				<title>Users shouldn`t be able to cut values from the &quot;Password&quot; field on the &quot;Sign In&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C66</id>
+				<title>If the &quot;Password&quot; field is empty validation message: “Password: can’t be blank” is shown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C67</id>
+				<title>If the &quot;Password&quot; field is entered invalid validation message:“Entered Invalid password” is shown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign in]</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C62</id>
+				<title>Users should be able to log in by clicking on the [Sign In] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign Up&quot; page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C10</id>
+				<title>Users should be able to register a new account using the “Sign Up”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Users should be able to open the “Sign Up” page from the navigation bar</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>The “Sign up” form should contain &quot;Username&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C19</id>
+				<title>The “Sign up” form should contain &quot;Email&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C24</id>
+				<title>The “Sign up” form should contain &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C31</id>
+				<title>The “Sign up” form should contain &quot;Confirm password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C32</id>
+				<title>The &quot;Confirm Password&quot; field on the &quot;Sing Up&quot; page should be required field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C33</id>
+				<title>The data from &quot;Confirm Password&quot; field on the &quot;Sing Up&quot; page should match with the Password field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C35</id>
+				<title>User should be able to get a letter to verify the email address</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C36</id>
+				<title>After successful registration user should be redirected to the “Finish Registration” page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C37</id>
+				<title>On the &quot;Finish registration&quot; page user should be able the enter the code sent by email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C38</id>
+				<title>The user should be able to see the validation message “This email is already registered. Want to log in?” after registration with an already registered email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>CON-11</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C41</id>
+				<title>The user should be able to see the validation message : “This username is taken.“ for the taken username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C42</id>
+				<title>The user should be able to see the validation message :“Username must start with a letter, have no spaces, and be 3 - 40 characters.”  for the non-valid username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C43</id>
+				<title>The user should be able to see the validation message : “This email does not seem valid.”  for the non-valid email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C44</id>
+				<title>The user should be able to see the validation message : “Password can’t be blank. Password should contain at least one capital letter, one number, and one special character.” for the empty password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&apos;Have an account?&apos; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C39</id>
+				<title>Users should be able to go to the “Sign In” page by clicking on the “Have an account?” link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&apos;Username&apos; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C13</id>
+				<title>The &quot;Username&quot; field on the &quot;Sing Up&quot; page should be required</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>The &quot;Username&quot; should be unique on the &quot;Sing Up&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>The &quot;Username&quot; field on the &quot;Sing Up&quot; page should accept only from 3 to 40 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C16</id>
+				<title>The &quot;Username&quot; field on the &quot;Sing Up&quot; page should accept only Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C45</id>
+				<title>The &quot;Username&quot; field on the &quot;Sing Up&quot; page should accept only  digits</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C17</id>
+				<title>The &quot;Username&quot; field on the &quot;Sing Up&quot; page should not accept special characters and non-printing symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C18</id>
+				<title>The &quot;Username&quot; field on the &quot;Sing Up&quot; page should be not case sensitive</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C20</id>
+				<title>The &quot;Email&quot; field on the &quot;Sing Up&quot; page should contain [name]@[domain].[top-domain]</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C21</id>
+				<title>The &quot;Email&quot; field on the &quot;Sing Up&quot; page should contain [name] part accepts Latin letters, digits, and special characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C22</id>
+				<title>The &quot;Email&quot; should be unique on the &quot;Sing Up&quot; page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C23</id>
+				<title>The &quot;Email&quot; field on the &quot;Sing Up&quot; page should be  required field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&apos;Password&apos; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C25</id>
+				<title>The &quot;Password&quot; field on the &quot;Sing Up&quot; page should be required field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C26</id>
+				<title>The &quot;Password&quot; field on the &quot;Sing Up&quot; page should accept only from 8 to 30 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>CON-5</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C27</id>
+				<title>The &quot;Password&quot; field on the &quot;Sing Up&quot; page should not accept non-printing symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>CON-7</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C28</id>
+				<title>The &quot;Password&quot; field on the &quot;Sing Up&quot; page should contain at least one special character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>CON-8</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C29</id>
+				<title>The &quot;Password&quot; field on the &quot;Sing Up&quot; page should contain at least one digit</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>CON-9</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C30</id>
+				<title>The &quot;Password&quot; field on the &quot;Sing Up&quot; page should contain at least one capital letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>CON-10</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign up]</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C34</id>
+				<title>Users should be able to create an account by clicking on the [Sign Up]</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>CON-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Article&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Read more&quot; link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;User&quot; name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow user]</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Favorite Article]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign in&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Sign up&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comments</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;User&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Details</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow user]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;New article&quot; tab</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Favorited Posts&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Footer</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Conduit&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Thinkster&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>User Logged In</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Site logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Home page&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;New Article page&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Settings page&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;User account page&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Body</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Home&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Your feed</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Global feed</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article content</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;read more&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like]</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&apos;Tags&apos; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;New Post&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Article title&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Whats this article about&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Write your article&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Enter tags&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Publish article]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Settings&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&apos;URL of profile picture&apos; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&apos;Username&apos; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&apos;Short bio about you&apos; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&apos;Email&apos; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&apos;New password&apos; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Update settings]</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[click here to logout]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;User profile&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User picture</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Edit Profile Settings]</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow\ Unfollow] if its not your own profile</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;My posts tab&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;User picture&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Username&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Read more... &quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Favorited Posts&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;User picture&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Username&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Read more... &quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Article&quot; page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Edit Article] if its your own article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Delete Article]  if its your own article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Write a comment&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Post comment]</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Trash can] if its your own comment</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Footer</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Conduit&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Thinkster&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
